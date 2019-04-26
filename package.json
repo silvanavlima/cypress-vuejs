@@ -1,0 +1,18 @@
+{
+  "name": "cypress-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-e2e-cypress": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
